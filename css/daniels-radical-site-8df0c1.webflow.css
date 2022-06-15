@@ -795,16 +795,16 @@ figcaption {
   padding: 0.5rem 1rem;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  color: #737373;
+  color: #737373 !important;
   font-weight: 500;
 }
 
 .navbar-link:hover {
-  color: #404040;
+  color: #ff5f00 !important;
 }
 
 .navbar-link.w--current {
-  color: #ff5f00;
+  /* color: #ff5f00; */
 }
 
 .button-with-icon {
